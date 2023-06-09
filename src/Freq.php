@@ -107,7 +107,7 @@ class Freq
     }
 
     /**
-     * @param  mixed[]  $data
+     * @param  float[]|int[]  $data
      * @return int[]
      */
     public static function frequencyTableBySize(array $data, int $chunkSize = 1): array
@@ -146,7 +146,7 @@ class Freq
      * If $category is null (default value for the optional parameter),
      * each class is not a range.
      *
-     * @param  mixed[]  $data
+     * @param  float[]|int[]  $data
      * @param  ?int  $category
      * @return int[]
      */
